@@ -12,5 +12,9 @@
         <item name="colorSecondaryVariant">@color/green_400</item>
         <item name="colorOnSecondary">@color/black</item>
 
-    <style name="Theme.BloomSpace" parent="android:Theme.Material.Light.NoActionBar" />
+        <!-- Background -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Customize your theme here. -->
+    </style>
 </resources>
