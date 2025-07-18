@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.shandk.bloomspace" />
+                  <option name="mobileSdkAppId" value="1:279150711922:android:b739930f0ae7361d071eeb" />
+                  <option name="projectId" value="bloomspace-9725" />
+                  <option name="projectNumber" value="279150711922" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
