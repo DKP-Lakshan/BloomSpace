@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279150711922",
+    "project_id": "bloomspace-9725",
+    "storage_bucket": "bloomspace-9725.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279150711922:android:b739930f0ae7361d071eeb",
+        "android_client_info": {
+          "package_name": "com.shandk.bloomspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKc0-oAKxTk7wwqyeJuxcDTt3LIsURxMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
