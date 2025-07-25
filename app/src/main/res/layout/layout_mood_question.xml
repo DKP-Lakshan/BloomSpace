@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Mood Question -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling today?"
+            android:textColor="@color/green_700"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Emoji Selection Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- Happy Emoji -->
+            <ImageView
+                android:id="@+id/happyEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/ic_emoji_happy"
+                android:contentDescription="Happy" />
+
+            <!-- Sad Emoji -->
+            <ImageView
+                android:id="@+id/sadEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/ic_emoji_sad"
+                android:contentDescription="Sad" />
+
+            <!-- Angry Emoji -->
+            <ImageView
+                android:id="@+id/angryEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/ic_emoji_angry"
+                android:contentDescription="Angry" />
+
+            <!-- Relaxed Emoji -->
+            <ImageView
+                android:id="@+id/relaxedEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="8dp"
+                android:src="@drawable/ic_emoji_relaxed"
+                android:contentDescription="Relaxed" />
+        </LinearLayout>
+
+        <!-- Mood Result Text -->
+        <TextView
+            android:id="@+id/moodResultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@color/green_500"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
